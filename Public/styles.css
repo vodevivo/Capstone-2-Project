@@ -1,0 +1,184 @@
+
+body{
+	margin: 0%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5 0.5 0.5 0.5 0.5;
+
+}
+
+
+.profile-picture{
+	border-radius: 50%;
+	margin: 20px 300px 20px 50px;
+}
+
+.header{
+    background: linear-gradient(-45deg, #3B57F5, #1BC8F7, #3BF5E1, #3BF5E1);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	grid-column: span 2;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+	margin-top: 0%;
+}
+h2{
+	margin-bottom: 0%;
+}
+.dev{
+	text-decoration:underline;
+}
+.name{
+	color: azure;
+	font-size: 30px;
+	margin-left: 300px;
+	padding: 0%;
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.position{
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.about-myself{
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color: #1BC8F7;
+}
+
+.resume{
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: justify;
+}
+.about{
+	grid-column: span 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4rem;
+}
+
+.row-3{
+	display: flex;
+	flex-direction: row;
+	margin-right: 4rem;
+}
+
+.education.row-3{
+	display: flex;
+	flex-direction: column;	
+}
+
+.experience.row-3{
+	display: flex;
+	flex-direction: column;
+	
+}
+.row-3-header{
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color: #1BC8F7;
+	margin-left: 65px;
+}
+ul{
+	list-style-type: none;
+	margin-left: 25px;
+}
+
+.skills{
+	grid-column: span 2;
+	display: flex;
+	flex-direction: column;
+	padding: 4rem;
+}
+
+.header-skills{
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color: #1BC8F7;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.container-2{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 50px;
+}
+
+.app {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.contacts{
+	grid-column: span 2;
+	display: flex;
+	flex-direction: column;
+	padding: 4rem;
+}
+.header-contacts{
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color: #1BC8F7;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.container-3{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+a{
+	display: flex;
+	justify-content: center;
+}
+
+footer{
+	background: linear-gradient(-45deg, #3B57F5, #1BC8F7, #3BF5E1, #3BF5E1);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	grid-column: span 2;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
